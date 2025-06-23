@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     button.addEventListener('click', () => {
         clickCount++; // Tăng biến đếm mỗi khi nút được nhấn
-        messageParagraph.textContent = `Bạn đã nhấn nút! Tổng cộng ${clickCount} lần. Chúc mừng thành công đẩy dự án lên GitHub!`;
+        messageParagraph.textContent = `Bạn đã nhấn nút! Tổng cộng ${clickCount} lần. Chúng mừng bạn đã mua ứng dụng ${clickCount}!`;
         counterParagraph.textContent = `Số lần nhấn: ${clickCount}`; // Cập nhật hiển thị bộ đếm
         console.log(`Nút đã được nhấn! Lần thứ: ${clickCount}`);
     });
